@@ -1,0 +1,6 @@
+.section-valeur{
+    height: 70vh;
+    background-color: #FDF4E9;
+    overflow: hidden;
+    display: flex;
+}
