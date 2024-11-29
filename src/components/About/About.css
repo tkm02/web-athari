@@ -101,4 +101,21 @@
 }
 .img-3{
     background-image: url(../../assets/img-3.png);
+} 
+
+@media (max-width: 768px) {
+    .section-2{
+        display: none;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .section-1{
+        margin: auto;
+        padding-top: 50px;
+        height: 100%;
+    }
+    .about-p-1 .about-p-2{
+        width: auto;
+    }
 }

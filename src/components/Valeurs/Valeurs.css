@@ -23,3 +23,11 @@
     color: #fff;
     font-family: "Comfortaa", sans-serif;
 }
+
+@media (max-width: 768px) {
+    .valeur-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+}

@@ -12,7 +12,7 @@ const About = () => {
             <span>ATHARI ADVISORS</span>  se définit avant tout comme un catalyseur d’impact et un générateur de transformation profonde et durable. Nous croyons fermement en la valeur des hommes et des femmes, d'où qu'ils soient et quelle que soit la classe sociale à laquelle ils appartiennent.
             <br/>
             <br/>
-            « Notre obsession est donc d'aider à canaliser les efforts des personnes et des organisations afin que les communautés de tous horizons accèdent à des conditions de vie dignes à travers le monde. »
+            « Notre obsessi on est donc d'aider à canaliser les efforts des personnes et des organisations afin que les communautés de tous horizons accèdent à des conditions de vie dignes à travers le monde. »
             </p>
             <button>En savoir plus</button>
         </section>

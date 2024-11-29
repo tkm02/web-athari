@@ -59,3 +59,23 @@
     margin: 0 auto;
     padding-left: 18%;
 }
+
+@media (max-width: 768px) {
+    .service-grid-img{
+        display: none;
+    }
+    .service{
+        padding: 60px;
+        height: auto;
+    }
+    .service-cards{
+        display: flex;
+        flex-direction: column;
+        width: 0;
+    }
+    .container-service{
+        /* border: 1px solid; */
+        display: inline; 
+        
+    }
+}

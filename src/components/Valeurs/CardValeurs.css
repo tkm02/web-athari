@@ -1,7 +1,7 @@
 .card-valeur{
     display: flex;
     flex-direction: column;
-    width:  300px;
+    width: 300px;
     background-color: #ffffff;
     border-radius: 30px 30px 15px 15px;
     height: 440px;
