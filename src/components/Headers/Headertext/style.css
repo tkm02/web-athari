@@ -1,0 +1,16 @@
+.notice-box {
+    background-color: #138081;
+    border-radius: 10px;
+    height: 190px;
+    color: #fff;
+    font-family: "Comfortaa", sans-serif;
+    width: 440px;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%,-50%);
+    bottom: -2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    z-index: 100;
+}
