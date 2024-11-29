@@ -11,6 +11,7 @@
     /* align-items: center; */
     justify-content: center;
     /* overflow: hidden; */
+    
 }
 .section-about{
     /* border: 1px solid; */
@@ -34,7 +35,7 @@
     font-weight: bold;
 }
 .about-p-2{
-    width: 650px;
+    width: 100%;
     margin: 10px 0 25px 0;
     text-align: justify;
     font-weight: 400;

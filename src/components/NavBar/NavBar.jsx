@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 // import icon from '../../assets/Polygon 1.png';
-// import logo from '../../assets/WhatsApp Image 2024-08-26 à 02.00.00_fe1fc9db.jpg';
+import logo from '../../assets/logo.png'
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,7 +14,7 @@ const NavBar = () => {
     <header>
       <nav>
         <div className="logo">
-          <img src={""} alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <button className="menu-toggle" onClick={toggleMenu}>
           ☰

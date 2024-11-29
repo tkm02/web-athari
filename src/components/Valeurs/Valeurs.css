@@ -1,6 +1,25 @@
-.section-valeur{
-    height: 70vh;
+.valeur{
     background-color: #FDF4E9;
+    padding: 15px 0 20px 0;
+}
+
+.valeur-container{
+    /*height: 70vh;*/
     overflow: hidden;
     display: flex;
+    gap: 20px;
+    padding: 25px;
+    justify-content: center;
+}
+
+.valeur h2{
+    margin: 0 auto;
+    /* border: 1px solid; */
+    width: 175px;
+    border-radius: 6px;
+    padding: 8px;
+    text-align: center;
+    background-color: #128081;
+    color: #fff;
+    font-family: "Comfortaa", sans-serif;
 }

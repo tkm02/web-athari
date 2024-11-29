@@ -9,9 +9,15 @@ import icon2 from '../../assets/leadship.png'
 import icon3 from '../../assets/altruisme.png'
 const Valeurs = () => {
   return (
-    <div className='section-valeur'>
+    <div className='valeur'>
+      <h2>Nos valeurs</h2>
+      <div className='valeur-container'>
       <CardValeurs image={image1} icon={icon1} titre={"Le respect de la dignité humaine"} description={"Nullam senectus porttitor in eget. Eget rutrum leo interdum."} index={1}/>
+      <CardValeurs image={image2} icon={icon2} titre={"Le Leadership transformationnel"} description={"Nullam senectus porttitor in eget. Eget rutrum leo interdum."} index={1}/>
+      <CardValeurs image={image3} icon={icon3} titre={"L’altruisme sincère"} description={"Nullam senectus porttitor in eget. Eget rutrum leo interdum."} index={1}/>
+      </div>
     </div>
+   
   )
 }
 

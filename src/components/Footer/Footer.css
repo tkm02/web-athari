@@ -1,0 +1,163 @@
+.container-footer {
+    height: 350px;
+    background-color: #128081;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.ul-footer--sections{
+    /* font-size: 12px; */
+}
+.logo-footer {
+    position: relative;
+    top: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.barre {
+    height: 1px;
+    color: #fff;
+    width: 100%;
+}
+
+.content-footer {
+    color: #FFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.content-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: left;
+}
+
+.title-footer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.list-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    gap: 10px;
+    position: relative;
+    right: 33px;
+}
+
+.list-footer li {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: "Poppins", sans-serif;
+    font-size: 13px;
+}
+
+.ul-footer {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: top;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    text-align: left; /* Alignement du texte à gauche */
+  }
+  
+  .contact-item img {
+    margin-right: 8px;
+  }
+
+
+.newsletter-container{
+    width: 470px;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+}
+.newsletter-container h2{
+    color: #128081;
+}
+
+.newsletter button{
+    background-color: #128081;
+    border-radius: 5px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+}
+
+.newsletter{
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter input{
+    width: 200px;
+    border-radius: 4px;
+    border: 1px gray solid;
+    padding: 2px;
+}
+
+@media (max-width: 655px) {
+    .container-footer {
+        padding: 0 20px;
+        height: auto;
+    }
+
+    .content-footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-section {
+        width: 100%;
+        text-align: center;
+    }
+
+    .ul-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .title-footer{
+        text-align: center;
+        position: relative;
+        left: 20px;
+    }
+
+    .list-footer {
+        align-items: center;
+        right: 0;
+    }
+
+    .contact-item {
+        flex-direction: column; 
+        align-items: center; 
+        text-align: center; 
+      }
+    
+      .contact-item img {
+        margin: 0; 
+      }
+}
+
+
+
