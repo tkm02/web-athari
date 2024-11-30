@@ -1,4 +1,6 @@
-
+a{
+    text-decoration: none;
+}
 .App{
     overflow-x: hidden;
     overflow: hidden;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
-HeaderText
-import background from "../../../assets/b.jpg";
+// "../../assets"
+import background from "../../assets/b.jpg";
 import HeaderText from "./Headertext/HeaderText";
 
 

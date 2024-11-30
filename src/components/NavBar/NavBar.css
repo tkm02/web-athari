@@ -9,7 +9,9 @@ nav {
     background-color: #128081;
     font-family: "Comfortaa", sans-serif;
   }
-  
+  nav a{
+    color: white;
+  }
   .logo img {
     width: 90px;
   }

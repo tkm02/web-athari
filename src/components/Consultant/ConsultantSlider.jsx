@@ -10,72 +10,72 @@ import charle from '../../assets/Jean-Charles DJEDRI.jpg'
 import prince from '../../assets/Prince BLE.jpg'
 
 const consultants = [
-    {
-      id: 1,
-      name: "ARNAUD N'GORAN",
-      title: "CEO & Founder",
-      image: boss,
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
-    },
-    {
-      id: 2,
-      name: "ROLAND SERGE M'BOLO",
-      title: "Associé",
-      image: boss2,
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  {
+    id: 1,
+    name: "ARNAUD N'GORAN",
+    title: "CEO & Founder",
+    image: boss,
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 2,
+    name: "ROLAND SERGE M'BOLO",
+    title: "Associé",
+    image: boss2,
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    {
-      id: 3,
-      name: "Prince BLE",
-      title: "Consultant",
-      image: prince,
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 3,
+    name: "Prince BLE",
+    title: "Consultant",
+    image: prince,
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    {
-      id: 4,
-      name: "Yvon KOUADIO",
-      title: "Consultant Senior",
-      image: kouadio,  // Assurez-vous de remplacer 'yvonImage' par le chemin réel de l'image
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 4,
+    name: "Yvon KOUADIO",
+    title: "Consultant Senior",
+    image: kouadio,  // Assurez-vous de remplacer 'yvonImage' par le chemin réel de l'image
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    {
-      id: 5,
-      name: "Fèrèlaha SORO",
-      title: "Consultante",
-      image: soro,  // Assurez-vous de remplacer 'ferelahaImage' par le chemin réel de l'image
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 5,
+    name: "Fèrèlaha SORO",
+    title: "Consultante",
+    image: soro,  // Assurez-vous de remplacer 'ferelahaImage' par le chemin réel de l'image
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    {
-      id: 6,
-      name: "Janine N’GUESSAN",
-      title: "Consultante junior",
-      image: jasmine,  // Assurez-vous de remplacer 'janineImage' par le chemin réel de l'image
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 6,
+    name: "Janine N’GUESSAN",
+    title: "Consultante junior",
+    image: jasmine,  // Assurez-vous de remplacer 'janineImage' par le chemin réel de l'image
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    {
-      id: 7,
-      name: "Jean-Charles DJEDRI",
-      title: "Consultant",
-      image: charle,  // Assurez-vous de remplacer 'jeanCharlesImage' par le chemin réel de l'image
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 7,
+    name: "Jean-Charles DJEDRI",
+    title: "Consultant",
+    image: charle,  // Assurez-vous de remplacer 'jeanCharlesImage' par le chemin réel de l'image
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    {
-      id: 8,
-      name: "Emmanuella BILÉ",
-      title: "Consultante senior",
-      image: bile,  // Assurez-vous de remplacer 'emmanuellaImage' par le chemin réel de l'image
-      quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
+  },
+  {
+    id: 8,
+    name: "Emmanuella BILÉ",
+    title: "Consultante senior",
+    image: bile,  // Assurez-vous de remplacer 'emmanuellaImage' par le chemin réel de l'image
+    quote: "Lorem ipsum dolor sit amet, consectetur. Et integer venenatis sed blandit sed blandit. Cum turpis ut porttitor nulla pharetra vel diam enim laoreet. Orci dui egestas viverra cras enim eleifend. Risus varius velit vel sagittis laoreet nulla mi. Viverra dignissim in mi ut tortor eleifend id in."
 
-    },
-    // Add more consultants as needed
-  ];
-  
+  },
+  // Add more consultants as needed
+];
+
 const ConsultantSlider = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAnimating, setIsAnimating] = useState(false);
@@ -104,8 +104,8 @@ const ConsultantSlider = () => {
 
   return (
     <div className='consultant-container'>
-        <div className="consultant-slider">
-          <h2>Nos consultant</h2>
+      <div className="consultant-slider">
+        <h2>Nos consultant</h2>
         <div className="slider-controls">
           <button onClick={prevSlide}>&larr;</button>
           <button onClick={nextSlide}>&rarr;</button>

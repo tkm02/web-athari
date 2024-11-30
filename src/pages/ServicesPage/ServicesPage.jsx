@@ -15,8 +15,9 @@ import conflitimg from "../../assets/conflit.png";
 import "./style.css";
 import CardService from "../../components/CardServices/CardService";
 import Footer from "../../components/Footer/Footer";
-import BesoinAide from "../../components/BesoinAide/BesoinAide";
 import NavBar from "../../components/NavBar/NavBar";
+import Headers from "../../components/Headers/Headers";
+import BesoinAide from "../../components/BesoinAide/BesoinAide";
 
 const ServicesPage = () => {
   return (

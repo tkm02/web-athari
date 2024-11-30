@@ -1,6 +1,6 @@
 import "./style.css";
-import rightimg from "../../../assets/right.png";
-import lefttimg from "../../../assets/left.png";
+import rightimg from "../../assets/right.png";
+import lefttimg from "../../assets/left.png";
 import BoxPhoto from "./BoxPhoto/BoxPhoto";
 
 

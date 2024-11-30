@@ -27,7 +27,7 @@
     width: 100%;
   }
   
-  .consultant-info {
+  .consultant-container .consultant-info {
     display: flex;
     width: 100%;
     background-color: #fff;
@@ -36,11 +36,11 @@
     border: none;
   }
   
-  .consultant-info.slide-out {
+  .consultant-container .consultant-info.slide-out {
     transform: translateX(-100%);
   }
   
-  .consultant-image, .next-consultant-image {
+  .consultant-container .consultant-image, .next-consultant-image {
     width: 200px;
     height: 300px;
     overflow: hidden;
@@ -53,43 +53,46 @@
     object-fit: cover;
   }
   
-  .consultant-details {
+  .consultant-container .consultant-details {
     flex: 1;
     justify-content: start;
     align-items: flex-start;
   }
   
-  .consultant-details h3 {
+  .consultant-container .consultant-details h3 {
     color: #128081;
+    /* border: 1px solid; */
+    height: 50px;
+
   }
   
-  .consultant-details .post, .next-consultant .post {
+  .consultant-container .consultant-details .post, .next-consultant .post {
     margin: -18px 0 0 0;
     font-family: "Inter", sans-serif;
     color: #7B7C7C;
     font-weight: 400;
   }
   
-  .consultant-details hr {
+  .consultant-container .consultant-details hr {
     color: #8987A1;
     width: 30%;
     margin: 5px 0;
   }
   
-  .next-consultant {
+  .consultant-container .next-consultant {
     margin-left: 20px;
     flex: 1;
     background-color: #fff;
   }
   
-  .next-consultant-image {
+  .consultant-container .next-consultant-image {
     width: 200px;
     height: 200px;
     margin: 0 auto;
     position: relative;
   }
   
-  .next-consultant-image::before {
+  .consultant-container .next-consultant-image::before {
     content: "";
     position: absolute;
     top: 0;
@@ -100,26 +103,28 @@
     z-index: 1;
   }
   
-  .next-consultant h4 {
+  .consultant-container .next-consultant h4 {
     color: #128081;
     font-size: 0.9em;
+    /* border: 1px solid; */
+    height: 40px;
   }
   
-  .next-consultant hr {
+  .consultant-container .next-consultant hr {
     width: 50%;
   }
   
-  .next-consultant h4, .next-consultant .post, .next-consultant hr {
+  .consultant-container .next-consultant h4, .next-consultant .post, .next-consultant hr {
     margin-left: 10px;
   }
   
-  .slider-controls {
+  .consultant-container .slider-controls {
     display: flex;
     justify-content: flex-end;
     margin: 10px 0;
   }
   
-  .slider-controls button {
+  .consultant-container .slider-controls button {
     background: none;
     border: 1px solid #128081;
     padding: 5px 15px;
@@ -128,7 +133,7 @@
     font-size: 1.1em;
   }
   
-  .quote {
+  .consultant-container .quote {
     font-style: italic;
     font-family: "Inter", sans-serif;
     width: 95%;

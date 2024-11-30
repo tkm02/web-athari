@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './NavBar.css';
 // import icon from '../../assets/Polygon 1.png';
 import logo from '../../assets/logo.png'
+import { Link } from 'react-router-dom';
 
 const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -21,16 +22,16 @@ const NavBar = () => {
         </button>
         <div className={`nav-menu ${isMenuOpen ? 'show' : ''}`}>
           <ul className='ul-nav'>
-            <li className='active-item'>Accueil</li>
+            <Link to="/accueil" className='active-item'>Accueil</Link>
             <li>A propos</li>
-            <li className="dropdown">
+            <Link to="/service" className="dropdown">
               Services <img src={"icon"} alt="" />
               <ul className="dropdown-content">
                 <li>Éducation</li>
                 <li>Santé</li>
                 <li>Agriculture</li>
               </ul>
-            </li>
+            </Link>
             <li>Contact</li>
           </ul>
           <div className="nav-buttons">
